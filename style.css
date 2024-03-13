@@ -1,0 +1,39 @@
+/*
+    Theme Name: eSchool
+    Author: Daniel Morris
+    Description: Practice theme for learning theme development.
+    Version: 1.0
+*/
+
+html * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-info-bar {
+    display: flex;
+    background-color: blue;
+    color: yellow;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#menu-top-navbar-menu {
+    display: flex;
+}
+
+.hero-slider img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
